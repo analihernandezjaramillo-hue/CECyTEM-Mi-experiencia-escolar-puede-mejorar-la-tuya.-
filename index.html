@@ -1,139 +1,255 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi experiencia escolar puede mejorar la tuya</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MI EXPERIENCIA ESCOLAR PUEDE MEJORAR LA TUYA</title>
 
-        header {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0d0d0d;
+  color:white;
+}
+.hero h1 {
+  margin-bottom: 5px;
+}
 
-        nav {
-            background-color: #34495e;
-            padding: 10px;
-            text-align: center;
-        }
+.hero p {
+  margin-top: 0;
+}
+/* HEADER */
+.header{
+  background: linear-gradient(90deg,#000,#d4af37,#ff4da6);
+  padding:15px;
+  text-align:center;
+  font-weight:bold;
+  font-size:18px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  
+}
 
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+/* CONTENIDO */
+.container{
+  padding:20px;
+  text-align:center;
+}
 
-        section {
-            padding: 20px;
-            margin: 20px;
-            background: white;
-            border-radius: 10px;
-        }
+/* TARJETAS */
+.card{
+  background:#1a1a1a;
+  margin:15px 0;
+  padding:20px;
+  border-radius:15px;
+  border-left:5px solid #d4af37;
+  box-shadow:0 4px 10px rgba(0,0,0,0.5);
+}
 
-        h2 {
-            text-align: center;
-            font-size: 28px;
-        }
+/* IMÁGENES Y VIDEO */
+.media{
+  margin-top:15px;
+}
+.media img, .media iframe{
+  width:100%;
+  max-width:400px;
+  border-radius:15px;
+  margin-top:10px;
+}
 
-        p {
-            text-align: justify;
-        }
+/* BOTONES */
+.btn{
+  display:block;
+  background: linear-gradient(90deg,#ff4da6,#d4af37);
+  color:black;
+  padding:12px;
+  margin:10px 0;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
 
-        img {
-            display: block;
-            margin: auto;
-            width: 60%;
-            border-radius: 10px;
-        }
+/* NAV INFERIOR */
+.bottom-nav{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#111;
+  display:flex;
+  justify-content:space-around;
+  padding:10px 0;
+  border-top:2px solid #d4af37;
+}
 
-        iframe {
-            display: block;
-            margin: 20px auto;
-        }
-    </style>
+.bottom-nav a{
+  color:#ff4da6;
+  text-decoration:none;
+  font-size:13px;
+  text-align:center;
+}
+
+/* ESPACIO */
+.space{
+  height:70px;
+}
+</style>
 </head>
+  
 
 <body>
 
-<header>
-    <h1>Mi experiencia escolar puede mejorar la tuya</h1>
-</header>
+<!-- HEADER -->
+<div class="header">
+ <h4> MI EXPERIENCIA ESCOLAR PUEDE MEJORAR LA TUYA<h4>
+</div>
 
-<nav>
-    <a href="#abandono">Abandono</a>
-    <a href="#consecuencias">Consecuencias</a>
-    <a href="#testimonios">Testimonios</a>
-    <a href="#prevencion">Prevención</a>
-    <a href="#familia">Familia</a>
-    <a href="#recursos">Recursos</a>
-</nav>
+<!-- CONTENIDO -->
 
-<section id="abandono">
-    <h2>¿Por qué ocurre el abandono escolar?</h2>
-    <img src="abandono1.jpg">
-    <p>
-        El abandono escolar ocurre por diversas razones como problemas económicos, falta de motivación,
-        situaciones familiares y bajo rendimiento académico. Estas situaciones afectan directamente la
-        continuidad de los estudiantes en la escuela.
-    </p>
-</section>
+<div class="container">
+  <img src="logo.png" width= "350" heigth="350" alt="Plantel">
+<h3 style="font-family: 'Playfair Display', serif; font-size:28px; color:#ff4da6; text-align:center; letter-spacing:1px;"> PLANTEL VALLE DE BRAVO </h3>
+ <h3 style="font-family: 'Great Vibes', cursive; font-size:32px; color:#d4af37; text-align:center; letter-spacing:2px;"> <p>Anali Josefina Hernandez Jaramillo</p><p>Carlos Sanchez Osnaya</p> </h3>
+<h3 style="font-family: 'Playfair Display', serif; font-size:28px; color:#ff4da6; text-align:center; letter-spacing:1px;"> EL  ABANDONO ESCOLAR SI TIENE SOLUCIÓN </h3>
+ <h6>-  - </h6>
 
-<section id="consecuencias">
-    <h2>Consecuencias de no terminar los estudios</h2>
-    <img src="abandono2.jpg">
-    <p>
-        No terminar los estudios puede generar menores oportunidades laborales, inestabilidad económica
-        y limitaciones personales y profesionales que afectan el futuro de los jóvenes.
-    </p>
-</section>
+<!-- IMAGEN PRINCIPAL -->
+<div class="media">
 
-<section id="testimonios">
-    <h2>Testimonios de estudiantes</h2>
-    <img src="abandono3.jpg">
-    <p>
-        Muchos estudiantes enfrentan dificultades, pero con esfuerzo y apoyo logran continuar sus estudios,
-        demostrando que es posible superar los obstáculos.
-    </p>
+ <h4 style="font-family: 'Great Vibes', cursive; font-size:32px; color:#d4af37; text-align:center; letter-spacing:2px;"> A B A N D O N O   <br> E S C O L A R.</h4>
+</div>
 
-    <!-- VIDEOS -->
-    <iframe width="300" height="200" src="https://www.youtube.com/watch?v=n9brnbGdUcI"></iframe>
-    <iframe width="300" height="200" src="https://www.youtube.com/watch?v=jcoB2GzBaYk"></iframe>
-    <iframe width="300" height="200" src="https://www.youtube.com/watch?v=qT5tcM58QJQ"></iframe>
-</section>
+<div class="card">
+  <h3>¿Qué es?</h3>
+  <p>El abandono escolar sucede cuando un estudiante deja de asistir a la escuela antes de terminar sus estudios. </p>
+</div>
 
-<section id="prevencion">
-    <h2>Cómo prevenir el abandono escolar</h2>
-    <img src="abandono4.jpg">
-    <p>
-        Para prevenir el abandono escolar es importante organizar el tiempo, pedir apoyo a docentes,
-        mantener metas claras y aplicar estrategias de estudio adecuadas.
-    </p>
-</section>
+<div class="card">
+  <h3>¿Por qué ocurre el abandono escolar?</h3>
+  <p>El abandono escolar sucede cuando un estudiante deja de asistir a la escuela antes de terminar sus estudios. Las causas principales son:
+Problemas económicos: Muchas familias no tienen recursos suficientes, por lo que los jóvenes deben trabajar y dejan la escuela.
+Falta de motivación: Algunos estudiantes pierden el interés porque no encuentran sentido a lo que estudian o se sienten desanimados.
+Situaciones familiares: Problemas en casa, falta de apoyo o responsabilidades familiares influyen en la decisión de abandonar.
+Bajo rendimiento académico: Dificultades para entender las materias pueden generar frustración y hacer que el estudiante se rinda.</p>
+</div>
 
-<section id="familia">
-    <h2>El papel de la familia y la escuela</h2>
-    <img src="abandono5.png">
-    <p>
-        La familia y la escuela deben trabajar juntas brindando apoyo emocional, comunicación constante
-        y seguimiento académico a los estudiantes.
-    </p>
-</section>
+<div class="card">
+  <h3>Consecuencias</h3>
+  <p>No concluir la escuela puede afectar seriamente el futuro de una persona:
+Menores oportunidades laborales: Es más difícil conseguir empleos bien pagados.
+Inestabilidad económica: Los ingresos suelen ser más bajos y menos seguros.
+Limitaciones personales y profesionales: Se reducen las posibilidades de crecimiento y desarrollo.</p>
+</div>
+<div class="card">
+  <h3>Testimonios de estudiantes (experiencias reales)</h3>
+  <p>
+Esta parte busca generar empatía mostrando casos reales:
+Historias de alumnos de 6° semestre que enfrentaron dificultades.
+Problemas como falta de dinero, desmotivación o situaciones familiares.
+Cómo lograron seguir adelante (apoyo de maestros, familia o esfuerzo personal). </p>
+</div>
 
-<section id="recursos">
-    <h2>Recursos y apoyo disponible</h2>
-    <img src="abandono6">
-    <p>
-        Existen tutorías escolares, apoyo psicológico, becas y contactos dentro del plantel que ayudan a
-        los estudiantes a continuar con sus estudios.
-    </p>
-</section>
+<div class="card">
+  <h3>Cómo prevenir el abandono escolar</h3>
+  <p>
+Existen acciones sencillas que pueden hacer una gran diferencia:
+Organización del tiempo: Planear tareas y estudios evita el estrés.
+Pedir apoyo a docentes: Resolver dudas a tiempo mejora el aprendizaje.
+Tener metas claras: Saber qué quieres lograr ayuda a mantenerte enfocado.
+Estrategias de estudio: Usar resúmenes, mapas mentales o estudiar en grupo. </p>
+</div>
+
+<div class="card">
+  <h3>El papel de la familia y la escuela</h3>
+  <p>
+
+La colaboración es clave para evitar el abandono:
+Apoyo emocional en casa: Escuchar y motivar al estudiante.
+Comunicación con docentes: Estar al tanto del desempeño escolar.
+Seguimiento académico: Revisar tareas, calificaciones y asistencia. </p>
+</div>
+<div class="card">
+  <h3>Recursos y apoyo disponible</h3>
+  <p>
+Existen opciones que pueden ayudar a los estudiantes a continuar:
+Tutorías escolares: Apoyo extra en materias difíciles.
+Apoyo psicológico: Para problemas emocionales o estrés.
+Becas o apoyos económicos: Ayudan a continuar los estudios.
+Contactos en la escuela: Orientadores, maestros o directivos. </p>
+</div>
+ </p>
+</div>
+
+<!-- VIDEO -->
+<div class="card">
+  <h3>Reflexiona</h3>
+  <div class="media">
+      <iframe height="220" src="videoplayback.mp4"></iframe>
+  </div>
+</div>
+
+<!-- BOTONES -->
+<a href="#" class="btn">Ver causas</a>
+<a href="#" class="btn">Ver consecuencias</a>
+<a href="#" class="btn">Ver testimonios</a>
+<a href="#" class="btn">Prevención</a>
+
+</div>
+
+<div class="space"></div>
+
+<!-- MENÚ INFERIOR -->
+<div class="bottom-nav">
+  <a href="#inicio">Inicio</a>
+  <a href="#causas">Causas</a>
+  <a href="#prevencion">Prevención</a>
+  <a href="#apoyos">Apoyos</a>
+</div>
+
+<!-- VIDEO -->
+<div class="card">
+
+
+<!-- VIDEO -->
+<div class="video-full">
+  <h3>V I D E O </h3>
+  <div class="media">
+    <iframe 
+      src="videoplayback (1)"
+      allow="autoplay; fullscreen"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+
+<!-- VIDEO -->
+<div class="card">
+
+
+<!-- VIDEO -->
+<div class="video-full">
+  <h3>V I D E O </h3>
+  <div class="media">
+    <iframe 
+      src="videoplayback (2)"
+      allow="autoplay; fullscreen"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+
+<!-- MENÚ INFERIOR -->
+<div class="bottom-nav">
+  <a href="#inicio">Inicio</a>
+  <a href="#causas">Causas</a>
+  <a href="#prevencion">Prevención</a>
+  <a href="#apoyos">Apoyos</a>
+</div>
 
 </body>
 </html>
+
+
